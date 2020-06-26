@@ -1,0 +1,141 @@
+
+#customers{
+    padding: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.customer {
+    display: inline-block;
+    text-align: center;
+}
+
+.customer__image {
+   text-align: center; 
+   box-shadow: 10px 10px 8px 10px #888888;
+   margin-right: 50px; 
+}
+
+
+.customer__name {
+    color: rgb(228, 56, 33);
+    text-align: justify;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.customer__description {
+    color: black;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+
+/* ---------------------------------------- header and footer ------------------------------------------ */
+
+
+/* .main-header{
+    background-color:rgb(29, 165, 29);
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.main-header > div
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__brand{
+    color: darkgreen;
+    text-decoration: none;
+    display: inline-block;
+    width: 10%;
+    height: 5px;
+    font-weight: bold;
+}
+.main-footer{
+    background-color: black;
+    padding: 32px;
+   
+}
+.main-footer__links{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.main-footer__link{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a{
+    color: white;
+    text-decoration: none;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color: gray;
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 55px);
+    vertical-align: middle;
+}
+.main-nav__items{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    vertical-align: middle;
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0 16px;
+    text-decoration: none;
+}
+.main-nav__item a{
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+    color: white;
+}
+.main-nav__item--cta a {
+    color: white;
+    background-color: red;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: red;
+    background-color: white;
+}
+.button{
+    background-color: green;
+    color: white;
+    font: inherit;
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttton:hover,
+.button:active{
+    background-color: white;
+    color: green;
+   
+}
+.button:focus{
+    outline: none;
+}  */
+

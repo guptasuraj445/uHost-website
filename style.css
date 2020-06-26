@@ -1,0 +1,243 @@
+/* body */
+.backdrop {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(236, 245, 203, 0.5);
+}
+
+.open {
+    display: block !important;
+}
+
+.modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 30%;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:400px) {
+    .modal {
+        width: 40%;
+        font-size: 10px;
+
+    }
+}
+
+.modal__title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.modal__action {
+    border: 1px solid #0e4f1f;
+    background: #0e4f1f;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+ 
+.modal__action:hover,
+.modal__action:active {
+    background: #2ddf5c;
+    border-color: #2ddf52;
+}
+
+.modal__action--negative {
+    background: red;
+    border-color: red;
+    
+}
+.modal__actions {
+    text-align: center;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+    background: #ff5454;
+    border-color: #ff5454;
+
+}
+.button{
+    background-color: green;
+    color: white;
+    font: inherit;
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttton:hover,
+.button:active{
+    background-color: white;
+    color: green;
+}
+.button:focus{
+    outline: none;
+}
+
+#product-overview{
+    background-image: url("../LearnCSS/images/freedom.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    background-position: left 10% botttom 70%;
+}
+#product-overview h1{
+    margin-top: 335px;
+    color: rgb(2, 27, 2);
+    font-size: 2.5rem;
+    margin-top: 330px;
+
+}
+
+@media (max-width:400px) {
+    #product-overview {
+        height: 500px;
+        background-position: 50% 25%;
+    }
+
+    #product-overview h1 {
+        font-size: 1.4rem;
+        margin-top: 400px;
+        color: rgb(2, 22, 2);
+        text-align: center;
+    }
+   
+}
+
+.section-title{
+    color:green;
+    text-align: center;
+}
+
+.plan__list {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.plan{
+    background-color:lightgreen;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+}
+
+@media (max-width:400px) {
+    .plan {
+        display: block;
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .plan__list {
+        width: 100%;
+        margin: 0px;
+    }
+}
+.plan__title {
+    color: green;
+}
+.plan__price{
+    color:green;
+}
+.plan--highlighted .plan__title{
+    color: gray;
+}
+.plan--highlighted .plan__price{
+    color: gray;
+}
+.plan__features{
+    list-style: none;
+    margin: 8px 0;
+    padding: 0px;
+}
+.plan__features li{
+    margin: 8px 0px;
+}
+.plan--highlighted{
+    background: green;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+.plan__annotation h1{
+    width: 130px;
+    vertical-align: middle;
+    text-align: center;
+    
+    
+}
+
+#key-features{
+    color: white;
+    background-color: #ff1b68;
+    padding: 10px;
+    margin-top: 15px;
+}
+#key-features .section-title{
+    color: white;
+    margin: 32px;
+}
+.key-feature__list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.key-feature{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+@media (max-width:400px) {
+    .key-feature {
+        display: block;
+        width: 100%;
+        max-width: 500px;
+    }  
+    .key-feature__list {
+        text-align: center;
+       
+    }
+}
+.key-feature__description{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.key-feature__image{
+    background: lightgoldenrodyellow;
+    width: 128px;
+    height: 128px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: auto;
+}
+
+@media (max-width:400px) {
+    .main-nav {
+        width: 50%;
+        position: fixed;
+    }
+}

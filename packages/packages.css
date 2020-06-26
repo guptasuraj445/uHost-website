@@ -1,0 +1,119 @@
+
+main {
+    padding-top: 14px;
+}
+
+.background {
+    background-image: url("../images/laptop.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.package {
+    width: 80%;
+    margin: 16px 0;
+    border: 4px solid green;
+    border-left: none;
+    position: relative;
+}
+
+@media (max-width:400px) {
+    .package {
+        width: 100%;
+        border-left: 4px solid green;
+        position: relative;
+    }
+    
+    h1, h2, p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .border {
+       border-right: 4px solid green !important;
+    }
+
+    .border:hover,
+    .border:active {
+        border-color: red !important;
+    }
+
+    .package__badge {
+        position: absolute;
+        top: 0 !important;
+        left: 120px !important;
+        margin-top: 7px !important;
+    }
+}
+
+.border {
+    border-right: none;
+}
+
+.package:hover,
+.package:active {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-color: red;
+}
+
+.package a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 2px;
+}
+
+.package__badge {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    margin: 20px;
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+}
+
+.package__title{
+    color: gray;
+}
+
+.package__info{
+    padding: 16px;
+    border: 1px solid gray;
+    /* font-size: 20px; */
+    color: green;
+    background-color: white;
+    
+}
+
+.clearfix {
+    clear: both;
+} 
+ 
+#plus {
+    background: rgba(235, 255, 220, 0.95);
+    margin-top: 80px;
+}
+
+#free {
+    background: rgba(230, 255, 220, 0.95);
+    float: right;
+    /* border-right: none; */
+    border-left:  4px solid green;
+    text-align: right;
+}
+
+#free:hover,
+#free:active {
+    border-left: 4px solid red;
+}
+
+#premium {
+    background: rgba(220, 255, 220, 0.95);
+}
+
